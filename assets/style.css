@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    /* font-size: 18px; */
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+
+}
+
+header {
+    width: 100%;
+    padding: 3rem;
+    margin: 0 0 2rem 0;
+    display:flex;
+    flex-flow: column nowrap;
+    background-color: white;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.title {
+    font: size 150%;
+    flex: 1 1 100%;
+    text-align:center;
+}
+
+.contact-cards {
+    margin: 2rem 1rem;
+    display: flex;
+    gap: 3rem;
+    flex-flow: row wrap;
+    justify-content:center;
+}
+
+p {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+
+}
+
+.cards {
+    border: 1px black solid;
+    box-shadow: 5px 5px 5px rgb(120, 120, 120);
+    flex: 1 1 100%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card-header {
+    background-color: rgb(126, 37, 37);
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.name {
+    display: inline;
+    font-weight: lighter;
+
+}
+
+.details {
+    padding: 1rem;
+
+}
+
+.uls {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+li {
+    border: solid 2px rgb(232, 231, 231);
+    padding: 1rem;
+    flex: 1 0 100%;
+}
+
+/* footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: whitesmoke;
+} */
+
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 120%;
+    }
+    
+    article {
+        flex: 1 0 46%;
+        max-width: 46%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    article {
+        flex: 1 0 30%;
+        max-width: 30%;
+    }
+}
