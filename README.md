@@ -1,7 +1,7 @@
 ## TeamCreator
 This is a Node.js command-line application that takes employee information and generates an HTML webpage that displays summaries for each person. 
 
-## Usage:
+## Usage
 Clone the repository code into your local device. 
 Run node index.js 
 You will be prompted to enter your teams inforamtion.
@@ -11,7 +11,7 @@ This will generate a new index.html of with al your teams information.
 ## Demo
 <a href="">Walkthrough Video</a>
 
-## Tests:
+## Tests
 npm run test
 
 ## Repo
